@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Médidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="TXT_Principal">Conversor de Médidas</h1>
+    <p id="TXT_Médida">Médida - <select name="Médidas" id="MédidasID">
+        <Option value="">Tipos de médidas</Option>
+        <option value="Comprimento">Comprimento</option>
+        <option value="Área">Área</option>
+        <option value="Volume">Volume</option>
+    </select>
+    </p>
+    <p id="TXT_Unidade">Unidade - De </p> 
+    <div id="SelectGenericoID_1DIVs"><select name="SelectGenerico_1" id="SelectGenericoID_1" disabled><option value="">Unidade 1</option></select></div> <p id="Gambiarra">para</p>
+    <div id="SelectGenericoID_2DIVs"><select name="SelectGenerico_2" id="SelectGenericoID_2" disabled><option value="">Unidade 2</option></select></div>
+    <p id="NomeUnidade_1">UNIDADE 1</p> 
+    <p id="NomeUnidade_2">UNIDADE 2</p> 
+    <input type="number" id="ValorInserido" placeholder="Valor" disabled>
+    <p id="IgualdadeSinal">=</p>
+    <div id="ResultadoDIV">Resultado</div>
+
+    <div id="SelectComprimentoID_1DIVs">
+        <select name="SelectComprimento_1" id="SelectComprimentoID_1">
+          <option value="m">Metro - m (SI)</option>
+          <option value="cm">Centímetro - cm</option>
+          <option value="dm">Decímetro - dm</option>
+          <option value="mm">Milímetro - mm</option>
+          <option value="km">Quilômetro - km</option>
+          <option value="hm">Hectômetro - hm</option>
+          <option value="dam">Decâmetro - dam</option>
+        </select>
+    </div>
+          <div id="SelectComprimentoID_2DIVs">
+            <select name="SelectComprimento_2" id="SelectComprimentoID_2" >
+                <option value="m">Metro - m (SI)</option>
+                <option value="cm">Centímetro - cm</option>
+                <option value="dm">Decímetro - dm</option>
+                <option value="mm">Milímetro - mm</option>
+                <option value="km">Quilômetro - km</option>
+                <option value="hm">Hectômetro - hm</option>
+                <option value="dam">Decâmetro - dam</option>
+            </select>
+        </div>
+
+        <div id="SelectÁreaID_1DIVs">
+            <select name="SelectÁrea_1" id="SelectÁreaID_1">
+              <option value="m²">Metro quadrado - m² (SI)</option>
+              <option value="cm²">Centímetro quadrado - cm²</option>
+              <option value="dm²">Decímetro quadrado - dm²</option>
+              <option value="mm²">Milímetro quadrado- mm²</option>
+              <option value="km²">Quilômetro quadrado - km²</option>
+              <option value="hm²">Hectômetro quadrado - hm²</option>
+              <option value="dam²">Decâmetro quadrado - dam²</option>
+            </select>
+        </div>
+              <div id="SelectÁreaID_2DIVs">
+                <select name="SelectÁrea_2" id="SelectÁreaID_2" >
+                    <option value="m²">Metro quadrado - m² (SI)</option>
+                    <option value="cm²">Centímetro quadrado - cm²</option>
+                    <option value="dm²">Decímetro quadrado - dm²</option>
+                    <option value="mm²">Milímetro quadrado- mm²</option>
+                    <option value="km²">Quilômetro quadrado - km²</option>
+                    <option value="hm²">Hectômetro quadrado - hm²</option>
+                    <option value="dam²">Decâmetro quadrado - dam²</option>
+                </select>
+            </div>
+  
+            <div id="SelectVolumeID_1DIVs">
+                <select name="SelectVolume_1" id="SelectVolumeID_1">
+                  <option value="m³">Metro cúbico - m³ (SI)</option>
+                  <option value="cm³">Centímetro cúbico - cm³</option>
+                  <option value="dm³">Decímetro cúbico - dm³</option>
+                  <option value="mm³">Milímetro cúbico - mm³</option>
+                  <option value="km³">Quilômetro cúbico - km³</option>
+                  <option value="hm³">Hectômetro cúbico - hm³</option>
+                  <option value="dam³">Decâmetro cúbico - dam³</option>
+                  <option value="l">Litro - l</option>
+                  <option value="ml">miliLitro - ml</option>
+                </select>
+            </div>
+                 
+            <div id="SelectVolumeID_2DIVs">
+                <select name="SelectVolume_2" id="SelectVolumeID_2">
+                  <option value="m³">Metro cúbico - m³ (SI)</option>
+                  <option value="cm³">Centímetro cúbico - cm³</option>
+                  <option value="dm³">Decímetro cúbico - dm³</option>
+                  <option value="mm³">Milímetro cúbico - mm³</option>
+                  <option value="km³">Quilômetro cúbico - km³</option>
+                  <option value="hm³">Hectômetro cúbico - hm³</option>
+                  <option value="dam³">Decâmetro cúbico - dam³</option>
+                  <option value="l">Litro - l</option>
+                  <option value="ml">miliLitro - ml</option>
+                </select>
+            </div>
+              
+            <p id="TXT_ERRO"><b>Atenção! Não existe valores negativos para esta medida.</b></p>
+    <script src="script.js"></script>
+</body>
+</html>

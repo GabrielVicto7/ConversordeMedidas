@@ -1,0 +1,194 @@
+body{
+    background-color: rgb(49, 49, 49);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#TXT_Principal{
+   color: white;
+   padding-top: 12px;
+   padding-left: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#TXT_Médida{
+    color: white;
+    font-size: 19px;
+    padding-left: 12px;
+    padding-top: 20px; 
+}
+
+#MédidasID{
+    height: 25px;
+}
+
+#TXT_Unidade{
+    color: white;
+    font-size: 19px;
+    padding-left: 12px;
+    padding-top: 20px;  
+}
+
+#NomeUnidade_2{
+    color: white;
+    font-size: 19px; 
+    position: absolute;
+    left: 18%;
+    top: 25.7%; 
+}
+
+#NomeUnidade_1{
+    color: white;
+    font-size: 19px;
+    padding-left: 12.4px;
+    padding-top: 20px;  
+}
+
+#ValorInserido{
+    height: 70px;
+    width: 80px;
+    position: absolute;
+    top: 32%;
+    left: 1.5%;
+    text-align: center;
+    font-size: 15px;
+    border: black solid 2px;
+}
+
+select:disabled {
+    background-color: #f1f1f1;
+    color: #999;
+  }
+
+input:disabled {
+    background-color: #f1f1f1;
+    color: #999;
+}
+
+#IgualdadeSinal{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    top: 33%;
+    left: 12%;
+}
+
+#ResultadoDIV{
+    height: 70px;
+    width: 80px;
+    position: absolute;
+    top: 32%;
+    left: 18.7%;
+    text-align: center;
+    font-size: 15px;
+    border: black solid 2px;
+    background-color: #f1f1f1;
+    color: #999;
+    padding-top: 24px;
+}
+
+#SelectGenericoID_1DIVs{
+    position: absolute;
+    top: 19%;
+    left: 9.5%;
+}
+
+#TXT_Unidade_2{
+    color: white;
+    font-size: 19px;
+}
+
+#Gambiarra{
+    color: white;
+    font-size: 19px;
+    position: absolute;
+    top: 19%;
+    left: 16.2%;
+}
+
+#SelectGenericoID_2DIVs{
+    position: absolute;
+    top: 19%;
+    left: 19.4%;
+}
+
+#SelectGenericoID_1{
+    display: block;
+}
+
+#SelectGenericoID_2{
+    display: block;
+}
+
+#SelectComprimentoID_2DIVs{
+    position: absolute;
+    top: 19%;
+    left: 19.4%;
+}
+
+#SelectComprimentoID_1DIVs{
+    position: absolute;
+    top: 19%;
+    left: 9.5%
+}
+
+#SelectComprimentoID_2{
+    display: none;
+}
+
+#SelectComprimentoID_1{
+    display: none;
+}
+
+#SelectÁreaID_2DIVs{
+    position: absolute;
+    top: 19%;
+    left: 19.4%;
+}
+
+#SelectÁreaID_1DIVs{
+    position: absolute;
+    top: 19%;
+    left: 9.5%
+}
+
+#SelectÁreaID_2{
+    display: none;
+}
+
+#SelectÁreaID_1{
+    display: none;
+}
+
+#SelectVolumeID_1DIVs{
+    position: absolute;
+    top: 19%;
+    left: 9.5%
+}
+
+#SelectVolumeID_2DIVs{
+    position: absolute;
+    top: 19%;
+    left: 19.4%;
+}
+
+#SelectVolumeID_1{
+    display: none;
+}
+
+#SelectVolumeID_2{
+    display: none;
+}
+
+#TXT_ERRO{
+    color: red;
+    position: absolute;
+    top: 46%;
+    left: 1%;
+    font-size: 19px;
+    display: none;
+}
